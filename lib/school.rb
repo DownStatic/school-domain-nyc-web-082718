@@ -28,7 +28,6 @@ class School
     @roster.values.map do |students|
       students = students.sort
     end
-    @roster
   end
   
 end
