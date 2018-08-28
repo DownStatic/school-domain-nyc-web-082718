@@ -28,6 +28,7 @@ class School
     @roster.values.each do |students|
       students = students.sort
     end
+    @roster
   end
   
 end
